@@ -11,9 +11,11 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
+	
 	<dependencies>
 	</dependencies>
-		<build>
+	
+	<build>
 		<sourceDirectory>src/main/java</sourceDirectory>
 		<resources>
 			<resource>
@@ -41,5 +43,5 @@
 				</configuration>
 			</plugin>
 		</plugins>
-	</build>
+	</build>			
 </project>
