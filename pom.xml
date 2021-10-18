@@ -46,5 +46,6 @@
 	</build>			
 	<modules>
 		<module>emaillist03</module>
+		<module>guestbook03</module>
 	</modules>
 </project>
