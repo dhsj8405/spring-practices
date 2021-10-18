@@ -9,6 +9,8 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class HelloController {
 	
+	
+	
 	@RequestMapping("/hello")
 	public String hello() {
 		return "/WEB-INF/views/hello.jsp";
@@ -42,7 +44,7 @@ public class HelloController {
 	@ResponseBody
 	@RequestMapping("/hello5")
 	public String hello5() {
-		return "<h1>hello world</h1>";
+		return "<h1>Hello world</h1>";
 	}
 	
 	
