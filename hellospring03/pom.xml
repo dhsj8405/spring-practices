@@ -13,14 +13,16 @@
 		<orgspringframework-version>4.3.4.RELEASE</orgspringframework-version>
 	</properties>
 	<dependencies>
-		<!--  Spring Context(Container) -->
+		<!-- Spring Context(Container) -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
 			<version>${orgspringframework-version}</version>
+			
 		</dependency>
-		
-		<!--  Spring MVC -->
+
+
+		<!-- Spring MVC -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
@@ -32,12 +34,12 @@
 			<artifactId>spring-web</artifactId>
 			<version>${orgspringframework-version}</version>
 		</dependency>
-		
-		<!--  jstl -->
+
+		<!-- jstl -->
 		<dependency>
-    		<groupId>javax.servlet</groupId>
-	    	<artifactId>jstl</artifactId>
-    		<version>1.2</version>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
 		</dependency>
 		<!-- Servlet -->
 		<dependency>
@@ -51,11 +53,11 @@
 			<artifactId>jsp-api</artifactId>
 			<version>2.0</version>
 			<scope>provided</scope>
-		</dependency>		
+		</dependency>
 	</dependencies>
-	
+
 	<build>
-	<finalName>hellospring03</finalName>
+		<finalName>hellospring03</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -75,7 +77,7 @@
 					<username>admin</username>
 					<password>manager</password>
 				</configuration>
-			</plugin>		
+			</plugin>
 		</plugins>
 	</build>
 </project>
