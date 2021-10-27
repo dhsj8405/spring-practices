@@ -15,7 +15,7 @@
 		<img src="${pageContext.request.contextPath }${url }" style="width:150px"><br>
 	</div>
 
-	<p>
+	<p> 
 		<a href='${pageContext.request.contextPath }'> 다시 업로드 하기 </a>
 	</p>
 	
