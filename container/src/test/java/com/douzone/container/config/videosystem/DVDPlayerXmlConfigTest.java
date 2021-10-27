@@ -12,6 +12,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import com.douzone.container.videosystem.DVDPack;
 import com.douzone.container.videosystem.DigitalVideoDisc;
 
 @RunWith(SpringJUnit4ClassRunner.class)
@@ -51,6 +52,22 @@ public class DVDPlayerXmlConfigTest {
 	@Qualifier("avengersDirectorEdition")
 	private DigitalVideoDisc dvd7;
 	
+	@Autowired
+	private DVDPack dvdPack;
+	
+	@Autowired
+	@Qualifier("avengersExpansionEdition1")
+	private DigitalVideoDisc dvd8;
+	
+	@Autowired
+	@Qualifier("avengersExpansionEdition2")
+	private DigitalVideoDisc dvd9;
+	
+	@Autowired
+	@Qualifier("avengersExpansionEdition3")
+	private DigitalVideoDisc dvd10;
+	
+	
 	@Ignore
 	@Test
 	public void testDVD1() {
@@ -84,5 +101,26 @@ public class DVDPlayerXmlConfigTest {
 	@Test
 	public void testDVD7() {
 		assertNotNull(dvd7);
+	}
+	
+	@Test
+	public void testDVDPack() {
+		System.out.println(dvdPack);
+		assertNotNull(dvdPack);
+	}
+	
+	@Test
+	public void testDVD8() {
+		assertNotNull(dvd8);
+	}
+	
+	@Test
+	public void testDVD9() {
+		assertNotNull(dvd9);
+	}
+	
+	@Test
+	public void testDVD10() {
+		assertNotNull(dvd10);
 	}
 }
