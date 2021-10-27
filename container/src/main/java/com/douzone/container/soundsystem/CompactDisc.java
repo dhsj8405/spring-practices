@@ -1,5 +1,5 @@
 package com.douzone.container.soundsystem;
 
-public interface CompactDisct {
+public interface CompactDisc {
 	public void play();
 }

@@ -12,7 +12,7 @@ import com.douzone.container.videosystem.DVDPlayer;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes=VideoSystemConfig.class)
-public class DVDPlayerMixingConfig0Test {
+public class DVDPlayerMixingConfig02Test {
 	@Autowired
 	private DVDPlayer dvdPlayer;
 	
