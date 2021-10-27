@@ -11,7 +11,7 @@ import com.douzone.container.videosystem.DigitalVideoDisc;
 public class DVDPlayerConfig {
 	
 	@Bean
-	public Avengers avengers() {
+	public DigitalVideoDisc avengers() {
 		return new Avengers();
 	}
 	
@@ -23,7 +23,7 @@ public class DVDPlayerConfig {
 		return new DVDPlayer(avengers());
 	}
 
-	// 주입(Injection) 하기2
+	// 주입(Injection) 하기2     추천**
 	// 파라미터로 빈 전달하기
 	// 생성자 주입
 	//@Bean
@@ -41,4 +41,11 @@ public class DVDPlayerConfig {
 		return dvdPlayer;
 	}
 	
+	// 같은 타입의 빈을 생성할 경우
+	@Bean(name="dvdPlayer04")
+	public DVDPlayer dvdPlayer04(DigitalVideoDisc dvd) {
+		DVDPlayer dvdPlayer =  new DVDPlayer();
+		dvdPlayer.setDvd(dvd);
+		return dvdPlayer;
+	}
 }
