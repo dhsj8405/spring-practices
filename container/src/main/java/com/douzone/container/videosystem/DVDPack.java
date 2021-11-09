@@ -10,10 +10,8 @@ public class DVDPack {
 		this.title = title;
 		this.dvds = dvds;
 		
-		
 	}
 
-	
 	@Override
 	public String toString() {
 		return "DVDPack [title=" + title + ", dvds=" + dvds + "]";

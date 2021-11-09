@@ -18,7 +18,7 @@
 	<!-- 01. 초간단 빈설정 -->
 	<bean class="com.douzone.container.videosystem.Avengers" />
 
-	<!-- 02. qlstjfwjd: id 부여하기 -->
+	<!-- 02. 빈설정: id 부여하기 -->
 	<bean id="ironMan"
 		class="com.douzone.container.videosystem.IronMan" />
 	<!-- 03. 빈설정: 생성자 리터럴 사용 -->

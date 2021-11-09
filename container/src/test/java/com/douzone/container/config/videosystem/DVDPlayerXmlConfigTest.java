@@ -95,85 +95,90 @@ public class DVDPlayerXmlConfigTest {
 	public void testDVD1() {
 		assertNotNull(dvd1);
 	}
-	@Test
-	public void testDVD2() {
-		assertNotNull(dvd2);
-	}
+//	@Test
+//	public void testDVD2() {
+//		assertNotNull(dvd2);
+//	}
+//	
+//	@Test
+//	public void testDVD3() {
+//		assertNotNull(dvd3);
+//	}
 	
-	@Test
-	public void testDVD3() {
-		assertNotNull(dvd3);
-	}
-	
-	@Test
-	public void testDVD4() {
-		assertNotNull(dvd4);
-	}
-	
+//	@Test
+//	public void testDVD4() {
+//		assertNotNull(dvd4);
+//	}
+//	
 	@Test
 	public void testDVD5() {
 		assertNotNull(dvd5);
+		System.out.println(dvd5);
+
 	}
 	
 	@Test
 	public void testDVD6() {
 		assertNotNull(dvd6);
+		System.out.println(dvd6);
 	}
 	
 	@Test
 	public void testDVD7() {
 		assertNotNull(dvd7);
+		System.out.println(dvd7);
+
 	}
-	
-	@Test
-	public void testDVDPack() {
-		System.out.println(dvdPack);
-		assertNotNull(dvdPack);
-	}
-	
-	@Test
-	public void testDVD8() {
-		assertNotNull(dvd8);
-	}
-	
-	@Test
-	public void testDVD9() {
-		assertNotNull(dvd9);
-	}
-	
-	@Test
-	public void testDVD10() {
-		assertNotNull(dvd10);
-	}
-	
-	@Test
-	public void testPlay1() {
-		dvdPlayer1.play();
-		assertEquals("Playing Movie MARVEL's IronMan", systemOutRule.getLog().replace("\r\n","").replace("\n",""));
-	}
-	
-	@Test
-	public void testPlay2() {
-		dvdPlayer2.play();
-		assertEquals("Playing Movie MARVEL's IronMan", systemOutRule.getLog().replace("\r\n","").replace("\n",""));
-	}
-	
-	@Test
-	public void testPlay3() {
-		dvdPlayer3.play();
-		assertEquals("Playing Movie MARVEL's IronMan", systemOutRule.getLog().replace("\r\n","").replace("\n",""));
-	}
-	
-	@Test
-	public void testPlay4() {
-		dvdPlayer4.play();
-		assertEquals("Playing Movie MARVEL's IronMan", systemOutRule.getLog().replace("\r\n","").replace("\n",""));
-	}
-	
-	@Test
-	public void testPlay5() {
-		dvdPlayer5.play();
-		assertEquals("Playing Movie MARVEL's IronMan", systemOutRule.getLog().replace("\r\n","").replace("\n",""));
-	}
+//	
+//	@Test
+//	public void testDVDPack() {
+//		System.out.println(dvdPack);
+//		assertNotNull(dvdPack);
+//	}
+//	
+//	@Test
+//	public void testDVD8() {
+//		assertNotNull(dvd8);
+//	}
+//	
+//	@Test
+//	public void testDVD9() {
+//		assertNotNull(dvd9);
+//	}
+//	
+//	@Test
+//	public void testDVD10() {
+//		assertNotNull(dvd10);
+//	}
+//	
+//	@Test
+//	public void testPlay1() {
+//		dvdPlayer1.play();
+//		assertEquals("Playing Movie MARVEL's IronMan", systemOutRule.getLog().replace("\r\n","").replace("\n",""));
+//	}
+//	
+//	@Test
+//	public void testPlay2() {
+//		dvdPlayer2.play();
+//		assertEquals("Playing Movie MARVEL's IronMan", systemOutRule.getLog().replace("\r\n","").replace("\n",""));
+//	}
+//	
+//	@Test
+//	public void testPlay3() {
+//		dvdPlayer3.play();
+//		assertEquals("Playing Movie MARVEL's IronMan", systemOutRule.getLog().replace("\r\n","").replace("\n",""));
+//	}
+//	
+//	@Test
+//	public void testPlay4() {
+//		dvdPlayer4.play();
+//		assertEquals("Playing Movie MARVEL's IronMan", systemOutRule.getLog().replace("\r\n","").replace("\n",""));
+//	}
+//	
+//	@Test
+//	public void testPlay5() {
+//		dvdPlayer5.play();
+//		assertEquals("Playing Movie MARVEL's IronMan", systemOutRule.getLog().replace("\r\n","").replace("\n",""));
+//	}
 	
 }
